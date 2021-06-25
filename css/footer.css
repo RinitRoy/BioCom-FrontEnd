@@ -1,0 +1,216 @@
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+footer{
+    background-color: #181818;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+footer .get-touch{
+    color: #FFF;
+    padding-bottom: 20px;
+}
+
+footer p{
+    color: #FFF;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+footer input{
+    width: 250px;
+    height: 2.5rem;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+footer .mail-btn{
+    margin: 15px 5px;
+    height: 2rem;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #F6E71D;
+    cursor: pointer;
+    font-weight: 600; 
+}
+
+footer .mail-btn:hover{
+    height: 2.2rem;
+    width: 85px;
+    font-size: 18px;
+    transition: .5s linear;
+    background-color: #FFF;
+    font-weight: 700;
+}
+
+input[type="email"]::placeholder {  
+    padding-left: 10px; 
+} 
+
+
+.biocom-head{
+    color: #FFF;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.biocom-list a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.biocom-list a:hover{
+    color: #F6E71D;
+    transition: .4s linear;
+}
+
+.biocom-list li{
+    padding: 10px 10px;
+}
+
+.help-sec{
+    color: #FFF;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.help-list a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.help-list a:hover{
+    color: #F6E71D;
+    transition: .4s linear;
+}
+
+.help-list li{
+    padding: 10px 10px;
+}
+
+.social-sec{
+    color: #FFF;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.social_icon{
+    padding-left: 10px;
+}
+
+.social_icon a{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-style: groove;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.social_icon .fa-facebook:hover{
+    color: #4267B2;
+    border-color: #4267B2;
+}
+
+.social_icon .fa-twitter:hover{
+    color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+
+.social_icon .fa-linkedin:hover{
+    color: #0077b5;
+    border-color: #0077b5;
+}
+
+.social_icon .fa-instagram:hover{
+    color: #bc2a8d;
+    border-color: #bc2a8d;
+}
+
+/* For iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2){
+    footer input{
+        width: 180px;
+    }
+    
+    .social_icon a{
+        font-size: 25px;
+    }
+}
+
+/* For iPad  */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1){
+    footer input{
+        width: 130px;
+    }
+    
+    input[type="email"]::placeholder {  
+        padding-left: 2px; 
+        font-size: 12px;
+    } 
+    
+    .biocom-head{
+        font-size: 20px;
+    }
+    
+    .get-touch{
+        font-size: 20px;
+    }
+    
+    .help-sec{
+       font-size: 20px; 
+    }
+    
+    .social-sec{
+        font-size: 20px;
+    }
+    
+    .social_icon a{
+        font-size: 20px;
+    }
+    
+    footer p{
+        font-size: 15px;
+    }
+    
+}
+
+
+/* For Mobile  */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3){
+    .social_icon a{
+        font-size: 15px;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    
+}

@@ -1,0 +1,25 @@
+@import url(./css/flex-library.css);
+@import url(./css/project-pandemic.css);
+@import url(./css/half-glass.css);
+@import url(./css/4-cards.css);
+@import url(./css/nav.css);
+@import url(./css/container-black.css);
+@import url(./css/footer.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: poppins;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

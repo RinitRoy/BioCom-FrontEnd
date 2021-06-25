@@ -1,0 +1,26 @@
+.cards{
+    width: 20%;
+    background-image: url(../img/titlecard.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2rem;
+    padding: 1.6rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    height: 23rem;
+    filter: drop-shadow(4px 4px 31px rgba(0, 0, 0, 0.1));
+}
+.heading-small{
+    font-weight: 700;
+    color: #464646;
+    font-size: 1.2rem;
+}
+.small-para{
+    margin-top: 1.2rem;
+    font-size: 0.9rem;
+    color: #464646;
+}
+.container-4{
+    padding: 3rem;
+}

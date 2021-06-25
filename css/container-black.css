@@ -1,0 +1,73 @@
+.container-black {
+  background-image: url(../img/containerblack.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testimonial {
+  width: 70%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.17);
+  backdrop-filter: blur(1.2rem);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 0 0 2rem 2rem;
+  padding: 1.2rem;
+}
+.testimonial h1 {
+  font-weight: 500;
+  font-size: 2.3rem;
+  margin-top: 0;
+  color: white;
+}
+.testimonial h4 {
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-top: 0;
+  color: white;
+}
+.master-glass-cards {
+  width: 100%;
+  margin-top: 2rem;
+  overflow-y: auto;
+}
+.oppostrophie {
+  width: 10%;
+  background-color: #ffc100;
+  font-size: 5rem;
+  font-family: Cabin;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.cmnt {
+  width: 90%;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(36px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 0 1.5rem 1.5rem 0;
+}
+.glass-cards {
+  width: 25%;
+  margin: 3rem 1rem;
+}
+.cmnt-text {
+  color: white;
+  padding: 5%;
+  margin-top: 1rem;
+}
+.personal-info {
+  padding: 5%;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+}
+.face-img {
+  margin-right: 1.2rem;
+}
+.horizontal-line{
+    height: 0.3rem;
+    width: 70%;
+    background-color: #ffc100;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}

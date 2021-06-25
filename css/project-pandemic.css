@@ -1,0 +1,28 @@
+.container{
+    background-image: url(../img/hdbg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-card{
+    width: 85%;
+    background-image: url(../img/titlecard.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3.55rem 2rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+    filter: drop-shadow(4px 4px 31px rgba(0, 0, 0, 0.1));
+}
+.heading{
+    color: #464646;
+    font-size: 3.2rem;
+}
+.paragraph{
+    width: 60%;
+    font-weight: 500;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+}
