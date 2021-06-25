@@ -1,0 +1,130 @@
+@media only screen and (max-width: 1024px) {
+  .heading {
+    background-color: #1c1c1c;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 2rem 2rem 0 2rem;
+    text-align: center;
+    width: 55% !important;
+  }
+
+  .text {
+    width: 45%;
+  }
+  .text p {
+    font-size: 0.7rem !important;
+  }
+  .text h3 {
+    font-size: 1.7rem !important;
+    font-weight: 500;
+  }
+  .heading-black {
+    font-size: 1.2rem !important;
+  }
+  .box {
+    width: 25%;
+    height: 17rem;
+  }
+  .box h3 {
+    font-size: 1.49rem !important;
+  }
+  .box p {
+    font-size: 0.69rem !important;
+  }
+
+  .accordian {
+    width: 75% !important;
+  }
+  .faq-link {
+    font-size: 0.9rem !important;
+  }
+  .answer p {
+    font-size: 0.7rem !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 33%;
+  }
+  .box h3 {
+    font-size: 1.49rem !important;
+  }
+  .box p {
+    font-size: 0.69rem !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .body {
+    width: 100%;
+  }
+  .box {
+    width: 34% !important;
+  }
+  .box h3 {
+    font-size: 1.49rem !important;
+  }
+  .box p {
+    font-size: 0.69rem !important;
+  }
+  .heading {
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 425px) {
+    .heading h1{
+        font-size: 0.9rem !important;
+    }
+  .carddisplay {
+    flex-direction: column;
+  }
+  .text {
+    width: 100% !important;
+  }
+  .text p {
+    font-size: 0.5rem !important;
+  }
+  .text h3 {
+    font-size: 1.7rem !important;
+    font-weight: 400 !important;
+  }
+  .illustration {
+    width: 100% !important;
+  }
+  .illustration img {
+    width: 100% !important;
+  }
+  .heading-black{
+    font-size: 0.6rem !important;
+  }
+  .box{
+    width: 30%;
+    height: 15rem;
+    background-color: whitesmoke;
+    padding: 0.3rem;
+    transition: all 0.5s ease;
+    border: 0.35rem solid #FFC000;
+    margin: 0.5rem 2rem;
+}
+.box h3{
+    font-size: 0.9rem !important;
+}
+.box p{
+    font-size: 0.4rem !important;
+}
+.box1:hover{
+    border-radius: 0.8rem 0 0.8rem 0.8rem;
+}
+.box2:hover{
+    border-radius: 0 0.8rem 0.8rem 0.8rem;
+}
+.heading-outline h1{ 
+    font-size: 1rem;
+}
+.heading-outline{
+    border-radius: 0.3rem;
+}
+.faq-item{
+    font-size: 0.2rem !important;
+}
+}

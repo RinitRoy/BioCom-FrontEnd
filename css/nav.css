@@ -18,8 +18,12 @@ body{
     display: inline-block;
     font-size: 23px;
     padding: 6px 25px;
-    color: #fff;
     border-bottom-right-radius: 20px;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: #fff;
 }
 
 .logo-lg{
@@ -31,9 +35,13 @@ body{
 .nav-items li:hover{
     background-color: #F5D10D;
     transition: 0.5s ease-in-out;
-    color: #000;
     border-bottom-right-radius: 20px;
     cursor: pointer;
+    color: #000;
+}
+
+.nav-links:hover{
+    color: #000;
 }
 
 /* For some extra glich height  */
