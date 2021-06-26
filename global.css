@@ -1,6 +1,4 @@
 @import url(./global-css/footer.css);
-@import url(./global-css/nav.css);
-
 
 *{
     margin: 0;
@@ -18,4 +16,61 @@ body{
 
 ::-webkit-scrollbar{
     display: none;
+}
+
+nav {
+    background-image: url(./img/bg_nav.JPG);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:  0px !important;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.dropdown-menu {
+    background-color: #353535;
+    border: 0;
+    margin-bottom: 1rem;
+}
+
+.dropdown-item{
+    color: #fff;
+    font-weight: 300;
+}
+
+.dropdown-item:hover {
+    background-color: #242424;
+    color: #fff;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.active {
+    background-color: #FFC100;
+    border-radius: 0 0 1rem 0;
+    border: 0px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important; 
+}
+
+.navbar-brand {
+    margin: 0px !important;
+    padding: 0 !important;
+}
+
+.logo {
+    height: 2.5rem;
 }

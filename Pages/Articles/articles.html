@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <!-- SLICK CAROUSEL -->
-    <link rel="stylesheet" type="text/css" href="../../css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="../../css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="/global-css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/global-css/slick-theme.css" />
 
     <!-- CUSTOM -->
-    <link rel="stylesheet" href="../../index.css">
-    <link rel="stylesheet" href="articles.css">
+    <link rel="stylesheet" type="text/css" href="articles.css">
+    <link rel="stylesheet" type="text/css" href="/global.css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,26 +32,63 @@
 <body> 
    
    <!------------------ NAVBAR ------------------->
-   <!--------------------------------------------->
-    <!-- <nav class="navbar-lg">
-        <img class="logo-lg" src="../img/logo.png" alt="Logo">
-            <ul class="nav-items">
-                <li>Articles</li>
-                <li>Glossary</li>
-                <li>About Us</li>
-                <li>External Links</li>
-            </ul>
-            <div class="container-sb">
-            <input type="text" id="box" placeholder="Search anything..." class="search__box">
-            <i class="fas fa-search search__icon" id="icon" onclick="toggleShow()"></i>
+   <div class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="/index.html"><img class="logo" src="/img/logo3.JPG" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/Pages/Articles/articles.html">Articles <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/Glossary/glossary.html">Glossary</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/Pages/AboutUs-BioCom/aboutUsBio.html">BioCom</a>
+                            <a class="dropdown-item" href="/Pages/AboutUs-PP/aboutUs.html">Project Pandemic</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">External Links</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/">Some Link</a>
+                            <a class="dropdown-item" href="/">Some Other Link</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="categories_container">
+            <h6 style="color: #c4c4c4;">CATEGORIES |</h6>
+            <a href="#biomed"><h6>BIOMED</h6></a>
+            <a href="#biotech"><h6>BIOTECH</h6></a>
+            <a href="#psychology"><h6>PSYCHOLOGY</h6></a>
         </div>
-    </nav> -->
+        <div class="top_categories_container">
+            <div class="flex_container">
+                <a href="#"><p>PANDEMIC</p></a>
+                <a href="#"><p>WHO</p></a>
+                <a href="#"><p>EPIDEMOLOGY</p></a>
+                <a href="#"><p>OUTBREAK</p></a>
+                <a href="#"><p>SYMPTOMS</p></a>
+                <a href="#"><p>DRUGS</p></a>
+            </div>
+            <form style="height:1.8rem;" class="d-flex">
+            <input class="form-control me-2" type="search" placeholder='Search...'>
+            <button style="padding:0px 10px;" class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+   </div>
 
    
    
     <!--------------- SECTION ONE ----------------->
-    <!--------------------------------------------->
-    <div class="bg bg__star">
+    <div style="margin-top:5rem;" class="bg bg__star" id="biomed">
         <div class="container section-one-header">
             <h2 class="heading">BIOMED</h2>
             <div class="row">
@@ -86,8 +123,7 @@
    
    
     <!--------------- SECTION TWO ----------------->
-    <!--------------------------------------------->
-    <div class="container-fluid bg bg__cicle">
+    <div class="container-fluid bg bg__cicle" id="biotech">
         <div class="heading_banner"><h2>BIOTECH</h2></div>
         <div class="container" style="color: #fff;">
             <div class="row">
@@ -123,10 +159,9 @@
    
    
     <!--------------- SECTION THREE ----------------->
-    <!----------------------------------------------->
-    <div class="bg bg__star">
+    <div class="bg bg__star" id="psychology">
         <div class="container section-one-header">
-            <h2 class="heading">BIOMED</h2>
+            <h2 class="heading">PSYCHOLOGY</h2>
             <div class="row">
                 <div class="col-md-12 col-lg-4 my-auto"><img class="image" src="./Images/headerImg.JPG"></div>
                 <div class="col-md-12 col-lg-8 my-auto"><h2>Black widow releasing soon</h2></div>
@@ -159,12 +194,18 @@
 
 </body>
 
+
+
 <!-- JQUERY -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 <!-- BOOTSTRAP -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 <!-- SLICK CAROUSEL -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
 <!-- CUSTOM -->
 <script src="articles.js"></script>
 </html>
