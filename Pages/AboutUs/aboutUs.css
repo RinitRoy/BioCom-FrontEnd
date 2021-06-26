@@ -1,5 +1,5 @@
-@import url("./css/library.css");
-@import url("./css/media.css");
+@import url("./Css/library.css");
+@import url("./Css/media.css");
 
 *{
     margin: 0;
@@ -15,6 +15,13 @@ html {
 body{
     font-family: poppins;
 }
+.container_project_pandemic{
+    background-image: url(../img/hdbg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .heading{
     color: #FBC41C;
     background-color: #1C1C1C;
@@ -105,7 +112,6 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0.3rem;
-    
 }
 .faq-link i{
     padding: 0.2rem;

@@ -1,25 +1,34 @@
 @import url(./css/flex-library.css);
-@import url(./css/project-pandemic.css);
 @import url(./css/half-glass.css);
 @import url(./css/4-cards.css);
-@import url(./css/nav.css);
 @import url(./css/container-black.css);
-@import url(./css/footer.css);
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+.container_project_pandemic{
+    background-image: url(../img/hdbg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-html{
-    scroll-behavior: smooth;
+.title-card{
+    width: 85%;
+    background-image: url(../img/titlecard.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3.55rem 2rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+    filter: drop-shadow(4px 4px 31px rgba(0, 0, 0, 0.1));
 }
-
-body{
-    font-family: poppins;
+.heading{
+    color: #464646;
+    font-size: 3.2rem;
 }
-
-::-webkit-scrollbar{
-    display: none;
+.paragraph{
+    width: 60%;
+    font-weight: 500;
+    margin-top: 2rem;
+    font-size: 1.4rem;
 }

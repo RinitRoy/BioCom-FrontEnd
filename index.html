@@ -2,20 +2,25 @@
 <html lang="en">
 
 <head>
-    <!-- CSS and Font------------------------------- -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <!-- ------------------------------------------- -->
-
-    <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- FONT ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- SWIPER CAROUSEL -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- CUSTOM -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="global.css">
+    <title>BioCom</title>
 </head>
 
 
@@ -23,27 +28,26 @@
 <body> 
    
    
-   <!-- -----------------Navbar for Large and Medium Devices------------------->
-
-<nav class="navbar-lg">
-   <img class="logo-lg" src="" alt="Logo">
-    <ul class="nav-items">
-        <li><a href="#" class="nav-links">Articles</a></li>
-        <li><a href="#" class="nav-links">Glossary</a></li>
-        <li><a href="./aboutus.html" class="nav-links">About Us</a></li>
-        <li><a href="#" class="nav-links">External Links</a></li>
-    </ul>
-    <div class="container-sb">
-      <input type="text" id="box" placeholder="Search anything..." class="search__box">
-      <i class="fas fa-search search__icon" id="icon" onclick="toggleShow()"></i>
-  </div>
-</nav>
+   <!------------------Navbar for Large and Medium Devices------------------->
+    <nav class="body navbar-lg">
+    <img class="logo-lg" src="./img/logo.png" alt="Logo">
+        <ul class="nav-items">
+            <li><a href="#" class="nav-links">Articles</a></li>
+            <li><a href="#" class="nav-links">Glossary</a></li>
+            <li><a href="./aboutus.html" class="nav-links">About Us</a></li>
+            <li><a href="#" class="nav-links">External Links</a></li>
+        </ul>
+        <div class="container-sb">
+        <input type="text" id="box" placeholder="Search anything..." class="search__box">
+        <i class="fas fa-search search__icon" id="icon" onclick="toggleShow()"></i>
+    </div>
+    </nav>
 
    
    
-    <!-- -----------------yellow header project pandemic ------------------->
+    <!------------------- yellow header project pandemic ------------------->
     <header>
-        <div class="container flex-r space-evenly align-center">
+        <div class="container_project_pandemic flex-r space-evenly align-center">
             <div class="title-card flex-c space-evenly align-center">
                 <h1 class="heading">
                     Project Pandemic
@@ -58,7 +62,8 @@
             </div>
         </div>
     </header>
-    <!-- -----------------yellow header project pandemic close------------------->
+
+
 
     <!-- -----------------Half Glass Country situation------------------->
     <half-glass>
@@ -102,11 +107,10 @@
             </div>
         </div>
     </half-glass>
-    <!-- -----------------Half Glass Country situation ENDs------------------->
 
-     <!-- -----------------4 cards Sharing Info ENDS------------------->
 
-    <!-- ------------ Public opinion -->
+
+    <!------------- Public opinion ---------------->
     <div class="container-black flex-c space-between align-center">
         <div class="testimonial">
             <h1>Testimonial</h1>
@@ -265,54 +269,52 @@
     </div>
 </div>
     
-<!-- Footer --> 
-   
-   <footer>
-       <div class="row">
-           <div class="column">
-                <h2 class="get-touch">Get in Touch</h2>
-                <p>Don’t miss any updates of our new articles !</p>
-                <input type="email" placeholder="name@example.com"><br>
-                <button class="mail-btn">Mail Us</button>
-          </div>
-          <div class="column">
-                <h2 class="biocom-head">BioCom</h2>
-                <ul class="biocom-list" style="list-style: none;">
-                    <li><a href="#">Community</a></li>
-                    <li><a href="#">External Links</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Our Tasks</a></li>
-                </ul>
-          </div>
-          <div class="column">
-                <h2 class="help-sec">Help</h2>
-                <ul class="help-list" style="list-style: none;">
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Our Team</a></li>
-                    <li><a href="#">Collaboration</a></li>
-                </ul>
-          </div>
-          <div class="column">
-                <h2 class="social-sec">Socials</h2>
-                <div class="social_icon">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                </div>
-          </div>
-        </div>
-   </footer>
-   
-   
-    
 
-    
-    
-<!-- JS -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
-<script src="./js/testimonial.js" defer></script>
+    <!-- FOOTER -->   
+    <footer>
+        <div class="row">
+            <div class="column">
+                    <h2 class="get-touch">Get in Touch</h2>
+                    <p>Don’t miss any updates of our new articles !</p>
+                    <input type="email" placeholder="name@example.com"><br>
+                    <button class="mail-btn">Mail Us</button>
+            </div>
+            <div class="column">
+                    <h2 class="biocom-head">BioCom</h2>
+                    <ul class="biocom-list" style="list-style: none;">
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">External Links</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Our Tasks</a></li>
+                    </ul>
+            </div>
+            <div class="column">
+                    <h2 class="help-sec">Help</h2>
+                    <ul class="help-list" style="list-style: none;">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Collaboration</a></li>
+                    </ul>
+            </div>
+            <div class="column">
+                    <h2 class="social-sec">Socials</h2>
+                    <div class="social_icon">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                    </div>
+            </div>
+            </div>
+    </footer>
 </body>
+
+
+
+<!-- SWIPER CAROUSEL -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+<!-- CUSTOM -->
+<script src="index.js" defer></script>
 
 </html>
